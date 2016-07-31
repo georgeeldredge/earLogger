@@ -1,0 +1,167 @@
+/*************************************************************/
+/* ALL LINKS ON THIS PAGE WILL HAVE NO DECORATION BY DEFAULT */
+/* LINK COLOR TO BE DEFINED PER SECTION                      */
+/*************************************************************/
+
+a:link, a:visited, a:hover, a:active {
+	text-decoration			: none;
+}
+
+/*************************************************/
+/* IMG TO HAVE NO BORDER BY DEFAULT              */
+/* BORDERS CAN BE ADDED WHEN NEEDED IN CHILD DIV */
+/*************************************************/
+
+img {
+	border					: 0px;
+	padding					: 0px;
+	margin					: 0px;
+}
+
+/*******************************************/
+/* BASE FONT STYLE DEFINED IN THE HTML TAG */
+/*******************************************/
+
+html {
+	font-family				: Verdana, Arial, Helvetica, sans-serif;
+	font-size				: 12px;
+}
+
+body {
+	position				: relative;
+	padding					: 12px;	
+}
+
+/******************************/
+/* USED TO CLEAR AFTER FLOATS */
+/******************************/
+
+.clear {
+	clear					: both;
+	line-height				: 0em;
+}
+
+/*******************/
+/* GENERIC STYLING */
+/*******************/
+
+.bold {
+	font-weight				: bold;
+}
+
+.hidden {
+	display					: none;
+}
+
+h1, h2, h3, h4, h5 {
+	font-size				: 1em;
+	font-weight				: normal;
+	margin					: 0px 0px 0px 0px;
+	padding					: 0px 0px 0px 0px;
+	text-align				: left;
+}
+
+h1 {
+	font-size				: 2.33em;
+}
+
+h2 {
+	font-size				: 1.8em;
+}
+
+h2 {
+	font-size				: 1.65em;
+}
+
+h3 {
+	font-size				: 1.45em;
+}
+
+h4 {
+	font-size				: 1.11em;
+}
+
+h5 {
+	font-size				: 1.05em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight				: bold;
+}
+
+a {
+	color					: #CC3333;
+}
+
+.line {
+	padding					: 6px 0px 6px 0px;	
+}
+
+.ask, .answer {
+	float					: left;
+}
+
+.ask {
+	margin-right			: 1em;
+	text-align				: right;
+	width					: 200px;	
+}
+
+.answer input[type="text"], .answer input[type="checkbox"] {
+	border					: 1px solid #666666;
+	position				: relative;
+}
+
+.answer input[type="text"] {
+	width					: 700px;
+}
+
+.line input[type="submit"] {
+	background-color		: #00FF00;
+	border					: 1px solid #000000;
+	margin-left				: 150px;
+	padding					: 3px 6px 3px 6px;	
+}
+
+/**********************/
+/*  GENERIC STYLINGS  */
+/**********************/
+
+table {
+	border-collapse			: collapse;
+	border-left				: 1px solid #000000;
+	border-top				: 1px solid #000000;
+	font-size				: .8em;
+}
+
+tr.header {
+	background-color		: #FDD023;
+	font-weight				: bold;
+	text-align				: center;
+}
+
+td, th {
+	border-bottom			: 1px solid #000000;
+	border-right			: 1px solid #000000;
+	padding					: 6px 6px 6px 6px;
+}
+
+td.center, th.center {
+	text-align				: center;
+}
+
+td.empty {
+	background-color		: #454545;
+}
+
+td.note, th.note {
+	max-width				: 500px;
+}
+
+.graph {
+	background-color		: #FFFFFF;
+	border					: 1px solid #000000;	
+	display					: inline-block;
+	margin					: 12px auto;
+	padding					: 12px 12px 12px 12px;
+}
