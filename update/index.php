@@ -3,6 +3,11 @@
 ob_start();
 session_start();
 
+if ($_SERVER['REMOTE_ADDR'] != '98.1833.54.9') {
+	header("Location: /");
+	exit();
+}
+
 require("../tools/mysqlConnect.php");
 require("../tools/config.php");
 
